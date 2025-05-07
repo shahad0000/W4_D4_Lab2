@@ -3,7 +3,7 @@ let people = [
         name: "Sara",
         age: "33",
         gender: "female",
-        img: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg"
+        img: "https://images.pexels.com/photos/15058155/pexels-photo-15058155/free-photo-of-woman-in-blue-background-flexing.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
     },
     {
         name: "Mohammed",
