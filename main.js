@@ -25,7 +25,13 @@ console.log(people.map(person => person.img))
 
 people.map(person => {
     let pImg = document.createElement("img");
+    let name = document.createElement("h2");
+    let age = document.createElement("h3");
     pImg.src = person.img;
     pImg.style.width = "300px";
+    name.innerText = `Name: ${person.name}`;
+    age.innerText = `Age: ${person.age}`;
     document.body.appendChild(pImg);
+    document.body.appendChild(name);
+    document.body.appendChild(age);
 })
